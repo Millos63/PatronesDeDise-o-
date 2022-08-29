@@ -6,20 +6,20 @@ using System.Threading.Tasks;
 
 namespace Decorador01
 {
-    class CSuspension : IComponente
+    class CLuces :IComponente
     {
-        //Variable de referencia a quien decoramos
+        //variable de referencia hacia quien decoramos
         private IComponente decoramosA;
 
         //Pasamos al objeto que va a ser decorado
-        public CSuspension(IComponente pComponente)
+        public CLuces(IComponente pComponente)
         {
             decoramosA = pComponente;
         }
 
         public override string ToString()
         {
-            return "Suspension de alto desempeño \r\n" + decoramosA.ToString();
+            return "Luces neon +\r\n" + decoramosA.ToString(); ;
         }
 
         //Metodos de la interfaz
@@ -27,14 +27,12 @@ namespace Decorador01
         {
             //Calculamos el costo
             //El costo de lo que decoro mas mi costo como componente
-            return decoramosA.Costo() + 63850;
+            return decoramosA.Costo() + 4500;
         }
 
         public string Funciona()
         {
-            return decoramosA.Funciona() + ", Elevando suspension";
+            return decoramosA.Funciona() + ", Enciende las luces";
         }
-        
-
     }
 }

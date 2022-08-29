@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CAuto.cs" />
+    <Compile Include="CLuces.cs" />
     <Compile Include="CNitrogeno.cs" />
     <Compile Include="CSistemaSonido.cs" />
     <Compile Include="CSuspension.cs" />

@@ -43,6 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAuto.cs" />
+    <Compile Include="CNitrogeno.cs" />
+    <Compile Include="CSistemaSonido.cs" />
+    <Compile Include="CSuspension.cs" />
+    <Compile Include="IComponente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

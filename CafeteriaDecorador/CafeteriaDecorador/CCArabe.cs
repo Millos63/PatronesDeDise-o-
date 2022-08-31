@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace CafeteriaDecorador
 {
-    interface IComponente
+    class CCArabe
     {
-        double Costo();
-
-        string Funciona();
     }
 }

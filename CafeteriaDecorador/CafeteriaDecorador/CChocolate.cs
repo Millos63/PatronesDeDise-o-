@@ -4,34 +4,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Decorador01
+namespace CafeteriaDecorador
 {
-    class CSistemaSonido : IComponente
+    class CChocolate : IComponente
     {
-        //variable de referencia hacia quien decoramos
+        //Variable de referencia hacia quien decoramos
         private IComponente decoramosA;
 
         //Pasamos al objeto que va a ser decorado
-        public CSistemaSonido(IComponente pComponente)
+        public CChocolate(IComponente pComponente)
         {
             decoramosA = pComponente;
         }
 
         public override string ToString()
         {
-            return "Radio 350XZ+\r\n" + decoramosA.ToString();
+            return "Chocolate \r\n" + decoramosA.ToString();
         }
+
         //Metodos de la interfaz
         public double Costo()
         {
             //Calculamos el costo
             //El costo de lo que decoro mas mi costo como componente
-            return decoramosA.Costo() + 3500;
+            return decoramosA.Costo() + 15;
         }
 
         public string Funciona()
         {
-            return decoramosA.Funciona() + ", Enciende el radio";
+            return decoramosA.Funciona() + ", Se agrego Chocolate";
         }
     }
 }

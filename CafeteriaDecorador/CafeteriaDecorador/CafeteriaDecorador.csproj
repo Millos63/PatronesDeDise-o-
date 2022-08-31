@@ -43,6 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAzucar.cs" />
+    <Compile Include="CCArabe.cs" />
+    <Compile Include="CChocolate.cs" />
+    <Compile Include="CCNormal.cs" />
+    <Compile Include="CCOaxaca.cs" />
+    <Compile Include="CCrema.cs" />
+    <Compile Include="CCremaBatida.cs" />
+    <Compile Include="CCVeracruz.cs" />
+    <Compile Include="CDescafeinado.cs" />
+    <Compile Include="CLeche.cs" />
+    <Compile Include="CMiel.cs" />
+    <Compile Include="CPanela.cs" />
+    <Compile Include="IComponente.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

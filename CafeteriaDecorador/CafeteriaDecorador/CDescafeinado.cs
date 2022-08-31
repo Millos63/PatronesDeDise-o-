@@ -6,14 +6,12 @@ using System.Threading.Tasks;
 
 namespace CafeteriaDecorador
 {
-    //Esta clase representa al componente y debe de implementar 
-    //a IComponente para poder llevar a cabo la decoración.
-    class CCNormal : IComponente
+    class CDescafeinado : IComponente
     {
         private string nombre;
         private double costo;
 
-        public CCNormal(string pNombre, double pCosto)
+        public CDescafeinado(string pNombre, double pCosto)
         {
             nombre = pNombre;
             costo = pCosto;
@@ -32,8 +30,7 @@ namespace CafeteriaDecorador
 
         public string Funciona()
         {
-            return "Se sirvio un cafe normal";
+            return "Se sirvio un cafe descafeinado";
         }
-
     }
 }

@@ -15,106 +15,119 @@ namespace CafeteriaDecorador
             string opc2 = "";
             int cafe = 0;
             int complemento = 0;
-            IComponente miCafe; 
 
-            //Preguntamos a usuario que tipo de cafe quiere
-            Console.WriteLine("Qué cafe quieres? \n\r 1.Cafe normal. \n\r2.Cafe Oaxaca. \n\r3.Cafe Veracruz \n\r4.Descafeinado \n\r5.Cafe Arabe \n\r6.Salir");
-            opc = Console.ReadLine();
-            cafe = Convert.ToInt32(opc);
+            //Variable IComponente para guardar el cafe seleccionado.
 
-            while(cafe != 6)
+            IComponente miCafe = new CCNormal("Normal", 0);
+
+            
+            while (cafe != 6)
             {
-                if(cafe == 1)
-                {
-                    //Creamos el componente crentral con tipo IComponente
-                    miCafe = new CCNormal("Normal", 10);
-                    Console.WriteLine(miCNormal);
+                //Preguntamos a usuario que tipo de cafe quiere
+                Console.WriteLine("Qué cafe quieres? \n\r 1.Cafe normal. \n\r2.Cafe Oaxaca. \n\r3.Cafe Veracruz \n\r4.Descafeinado \n\r5.Cafe Arabe \n\r6.Salir");
+                opc = Console.ReadLine();
+                cafe = Convert.ToInt32(opc);
 
-                    //Preguntamos si quiere un extra
+                if (cafe == 6)
+                    break;
+                if (cafe == 1)
+                {
+                    //Le agregamos a miCafe el cafe normal.
+                    miCafe = new CCNormal("Normal", 10);
+                    Console.WriteLine(miCafe);
+                }
+
+                if (cafe == 2)
+                {
+                    //Le agregamos el CafeOaxaca a miCafe
+                    miCafe = new CCOaxaca("Oaxaca", 15);
+                    Console.WriteLine(miCafe);
+
+                }
+
+                if (cafe == 3)
+                {
+                    //Le agregamos el CafeVeracruz a miCafe
+                    miCafe = new CCVeracruz("Veravruz", 15);
+                    Console.WriteLine(miCafe);
+
+
+                }
+
+                if (cafe == 4)
+                {
+                    //Le agregamos el CafeDescafeinado a miCafe
+                    miCafe = new CDescafeinado("Descafeinado", 17);
+                    Console.WriteLine(miCafe);
+
+                }
+
+                if (cafe == 5)
+                {
+                    //Le agregamos el CafeArabe a miCafe
+                    miCafe = new CCArabe("Arabe", 23);
+                    Console.WriteLine(miCafe);
+                }
+
+                //Preguntamos si quiere un extra
+                
+
+                while (complemento != 8)
+                {
+
                     Console.WriteLine("Deseas agregar un complemento? 1.Azucar, \n\r2.Miel, \n\r3.Panela, \n\r4.Leche, \n\r5.Crema, \n\r6.CremaBatida, \n\r7.Chocolate \n\r8.Salir");
                     opc2 = Console.ReadLine();
                     complemento = Convert.ToInt32(opc2);
-
-                    while (complemento != 8)
+                    if (complemento == 1)
                     {
-                        if (complemento == 8)
-                            break;
-
-
-                        if (complemento == 1)
-                        {
-                            //Decoramos el cafe con Azucar
-                            miCNormal = new CAzucar(miCNormal);
-                        }
-
-                        if (complemento == 2)
-                        {
-                            //Decoramos el cafe con Azucar
-                            miCNormal = new CMiel(miCNormal);
-                        }
-
-                        if (complemento == 3)
-                        {
-                            //Decoramos el cafe con Azucar
-                            miCNormal = new CPanela(miCNormal);
-                        }
-
-                        if (complemento == 4)
-                        {
-                            //Decoramos el cafe con Azucar
-                            miCNormal = new CLeche(miCNormal);
-                        }
-
-                        if (complemento == 5)
-                        {
-                            //Decoramos el cafe con Azucar
-                            miCNormal = new CCrema(miCNormal);
-                        }
-
-                        if (complemento == 6)
-                        {
-                            //Decoramos el cafe con Azucar
-                            miCNormal = new CCremaBatida(miCNormal);
-                        }
-
-                        if (complemento == 7)
-                        {
-                            //Decoramos el cafe con Azucar
-                            miCNormal = new CChocolate(miCNormal);
-                        }
-
-
-
+                        //Decoramos el cafe con Azucar
+                        miCafe = new CAzucar(miCafe);
                     }
-                    
-                
+
+                    if (complemento == 2)
+                    {
+                        //Decoramos el cafe con Azucar
+                        miCafe = new CMiel(miCafe);
+                    }
+
+                    if (complemento == 3)
+                    {
+                        //Decoramos el cafe con Azucar
+                        miCafe = new CPanela(miCafe);
+                    }
+
+                    if (complemento == 4)
+                    {
+                        //Decoramos el cafe con Azucar
+                        miCafe = new CLeche(miCafe);
+                    }
+
+                    if (complemento == 5)
+                    {
+                        //Decoramos el cafe con Azucar
+                        miCafe = new CCrema(miCafe);
+                    }
+
+                    if (complemento == 6)
+                    {
+                        //Decoramos el cafe con Azucar
+                        miCafe = new CCremaBatida(miCafe);
+                    }
+
+                    if (complemento == 7)
+                    {
+                        //Decoramos el cafe con Azucar
+                        miCafe = new CChocolate(miCafe);
+                    }
                 }
 
-                if(cafe == 2)
-                {
-                    //Creamos el componente crentral con tipo IComponente
-                    IComponente miCOaxaca = new CCOaxaca("Oaxaca", 15);
-
-                    Console.WriteLine(miCOaxaca);
-
-                    //Decoramos el cafe con caf 
-                    miCOaxaca = new CAzucar(miCOaxaca);
-                    //Comprobamos la adicion de las caracteristicas
-                    Console.WriteLine(miCOaxaca.Funciona());
-                    Console.WriteLine(miCOaxaca.Costo());
-                    break;
-                }
-
-                while(componentes)
-                //Comprobamos la adicion de las caracteristicas
-                Console.WriteLine(miCafe.Funciona());
-                Console.WriteLine("A pagar: " + miCNormal.Costo() + " pesos");
             }
 
+            
+            Console.WriteLine(miCafe.Funciona());
+            Console.WriteLine("El Monto a pagar es: " + miCafe.Costo());
+            Console.WriteLine(miCafe);
 
-            
-           
-            
         }
     }
 }

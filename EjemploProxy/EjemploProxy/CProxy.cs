@@ -77,6 +77,9 @@ namespace EjemploProxy
             {
                 Console.WriteLine("Cargando {0} camiones", n);
             }
+
+            //Aqui se pueden poner mas metodos
+
         }
 
 

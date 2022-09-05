@@ -66,7 +66,7 @@ namespace Proxy02
             }  
         }
 
-        //Esta es la clase 
+        //Esta es la clase protegida
         private class CCocina
         {
             public void RecetaSecreta()

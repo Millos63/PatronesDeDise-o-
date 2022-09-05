@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\EjemploProxy\EjemploProxy\bin\Debug\EjemploProxy.exe.config
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\EjemploProxy\EjemploProxy\bin\Debug\EjemploProxy.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\EjemploProxy\EjemploProxy\bin\Debug\EjemploProxy.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\EjemploProxy\EjemploProxy\obj\Debug\EjemploProxy.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\EjemploProxy\EjemploProxy\obj\Debug\EjemploProxy.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\EjemploProxy\EjemploProxy\obj\Debug\EjemploProxy.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\EjemploProxy\EjemploProxy\obj\Debug\EjemploProxy.pdb

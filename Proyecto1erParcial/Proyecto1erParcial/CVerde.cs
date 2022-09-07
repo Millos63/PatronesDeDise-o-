@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Proyecto1erParcial
 {
-    interface IOperacion
+    class CVerde : IOperacion
     {
-        double operacion(double a, double b, double c, double d, double e);
+        public double operacion(double a, double b, double c, double d, double e)
+        {
+
+        }
     }
 }

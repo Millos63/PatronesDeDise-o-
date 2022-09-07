@@ -30,12 +30,12 @@ namespace Proyecto1erParcial
                 if(opc == "1")
                 {
                     //Variables
-                    int xl = 0;
-                    int l = 0;
-                    int m = 0;
-                    int s = 0;
-                    int c = 0;
-                    int color = 0;
+                    double xl = 0;
+                    double l = 0;
+                    double m = 0;
+                    double s = 0;
+                    double c = 0;
+                    double color = 0;
                     string leer = "";
                     
 
@@ -43,23 +43,23 @@ namespace Proyecto1erParcial
                         "\n\r Vamos a empezar a seleccionar el jitomate. Cuántos jitomates tienes de:" +
                         "\n\rXL:");
                     leer = Console.ReadLine();
-                    xl = Convert.ToInt32(leer);
+                    xl = Convert.ToDouble(leer);
 
                     Console.WriteLine("\n\rL:");
                     leer = Console.ReadLine();
-                    l = Convert.ToInt32(leer);
+                    l = Convert.ToDouble(leer);
 
                     Console.WriteLine("\n\rM:");
                     leer = Console.ReadLine();
-                    m = Convert.ToInt32(leer);
+                    m = Convert.ToDouble(leer);
 
                     Console.WriteLine("\n\rS:");
                     leer = Console.ReadLine();
-                    s = Convert.ToInt32(leer);
+                    s = Convert.ToDouble(leer);
 
                     Console.WriteLine("\n\rC:");
                     leer = Console.ReadLine();
-                    c = Convert.ToInt32(leer);
+                    c = Convert.ToDouble(leer);
 
                     Console.WriteLine("De qué color son los jitomates seleccionados?\n\r" +
                         "1. Verdes, 2. Inicio de color, 3. Naranjas, 4. Rojos ");

@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Proyecto1erParcial\Proyecto1erParcial\bin\Debug\Proyecto1erParcial.exe.config
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Proyecto1erParcial\Proyecto1erParcial\bin\Debug\Proyecto1erParcial.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Proyecto1erParcial\Proyecto1erParcial\bin\Debug\Proyecto1erParcial.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Proyecto1erParcial\Proyecto1erParcial\obj\Debug\Proyecto1erParcial.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Proyecto1erParcial\Proyecto1erParcial\obj\Debug\Proyecto1erParcial.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Proyecto1erParcial\Proyecto1erParcial\obj\Debug\Proyecto1erParcial.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Proyecto1erParcial\Proyecto1erParcial\obj\Debug\Proyecto1erParcial.pdb

@@ -60,8 +60,10 @@ namespace Proyecto1erParcial
 
                     while(salir != "2")
                     {
+
+                        //El precio del jitomate cambia dependiendo que color se venda, pero todo en base al precio de la caja de jitomate XL del color rojo
                         Console.WriteLine("Qué color se va a vender?\n\r" +
-                        "1. Verdes, 2. Payaseados, 3. Naranjas, 4. Rojos ");
+                        "1. Verdes, 2. verde-naranja, 3. Naranjas, 4. Rojos ");
                         leer = Console.ReadLine();
                         color = Convert.ToInt32(leer);
 
@@ -87,32 +89,40 @@ namespace Proyecto1erParcial
                         s = Convert.ToDouble(leer);
 
 
-                        //Verdes
+                        //Verdes 
                         if (color == 1)
                         {
+                            Console.WriteLine("El precio de la caja de jitomate XL verde es de{0}", costoJitomate/2);
                             miOperacion = new CVerde();
                             r = miOperacion.operacion(j, xl, l, m, s, costoJitomate);
                             Console.WriteLine("Se vendio un total de {0} pesos de jitomate verde", r);
-                            
-
                         }
 
-                        //Inicio de color
+                        //verdeNaranja
                         if (color == 2)
                         {
+                            Console.WriteLine("El precio de la caja de jitomate XL verde-naranja es de{0}", costoJitomate - 20);
+                            miOperacion = new CVerdeNaranja();
                             r = miOperacion.operacion(j, xl, l, m, s, costoJitomate);
+                            Console.WriteLine("Se vendio un total de {0} pesos de jitomate verde-naranja", r);
                         }
 
                         //Naranjas
                         if (color == 3)
                         {
+                            Console.WriteLine("El precio de la caja de jitomate XL naranja es de{0}", costoJitomate + 20);
+                            miOperacion = new CNaranja();
                             r = miOperacion.operacion(j, xl, l, m, s, costoJitomate);
+                            Console.WriteLine("Se vendio un total de {0} pesos de jitomate naranja", r);
                         }
 
                         //Rojos
                         if (color == 4)
                         {
+                            Console.WriteLine("El precio de la caja de jitomate XL rojo es el valor que usted nos proporciono, {0}", costoJitomate);
+                            miOperacion = new CRojo();
                             r = miOperacion.operacion(j, xl, l, m, s, costoJitomate);
+                            Console.WriteLine("Se vendio un total de {0} pesos de jitomate rojo", r);
                         }
 
                         ventaFinal += r; 
@@ -122,7 +132,7 @@ namespace Proyecto1erParcial
                         
                     }
 
-                    Console.WriteLine("Se obtuvieron {0} de ventas totales", ventaFinal);
+                    Console.WriteLine("\n\r Se obtuvieron {0} de ventas totales\n\r", ventaFinal);
                     
                 }
 

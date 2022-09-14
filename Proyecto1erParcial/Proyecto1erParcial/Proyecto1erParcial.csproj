@@ -43,7 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CNaranja.cs" />
+    <Compile Include="CRojo.cs" />
     <Compile Include="CVerde.cs" />
+    <Compile Include="CVerdeNaranja.cs" />
     <Compile Include="IOperacion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

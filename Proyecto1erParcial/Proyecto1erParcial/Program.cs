@@ -144,58 +144,44 @@ namespace Proyecto1erParcial
                     int invernadero = 0;
                     int complemento = 0;
 
-                    //Variable IComponente para guardar el cafe seleccionado.
+                    //Variable IComponente para guardar el invernadero seleccionado.
 
-                    IComponente miCafe = new CCNormal("Normal", 0);
+                    IComponente miInvernadero = new CInverTierra("Tierra", 0);
 
 
-                    while (invernadero != 6)
+                    while (invernadero != 4)
                     {
                         //Preguntamos a usuario que tipo de invernadero quiere
-                        Console.WriteLine("Qué invernadero le gustaria construir? \n\r 1.Cafe normal. \n\r2.Cafe Oaxaca. \n\r3.Cafe Veracruz \n\r4.Descafeinado \n\r5.Cafe Arabe \n\r6.Salir");
+                        Console.WriteLine("Qué invernadero le gustaria construir? \n\r 1.Invernadero Tierra. \n\r2.Invernadero Hidroponia. \n\r3. Invernadero Holandes \n\r4. Salir");
                         opc = Console.ReadLine();
-                        cafe = Convert.ToInt32(opc);
+                        invernadero = Convert.ToInt32(opc);
 
-                        if (cafe == 6)
+                        if (invernadero == 4)
                             break;
-                        if (cafe == 1)
+                        if (invernadero == 1)
                         {
-                            //Le agregamos a miCafe el cafe normal.
-                            miCafe = new CCNormal("Normal", 10);
-                            Console.WriteLine(miCafe);
+                            //Le agregamos a miInvernadero el invernadero de tierra
+                            miInvernadero = new CInverTierra("Invernadero de tierra", 150000);
+                            Console.WriteLine(miInvernadero);
                         }
 
-                        if (cafe == 2)
+                        if (invernadero == 2)
                         {
-                            //Le agregamos el CafeOaxaca a miCafe
-                            miCafe = new CCOaxaca("Oaxaca", 15);
-                            Console.WriteLine(miCafe);
-
+                            //Le agregamos a miInvernadero el invernadero de tierra
+                            miInvernadero = new CInverTierra("Invernadero de tierra", 150000);
+                            Console.WriteLine(miInvernadero);
                         }
 
-                        if (cafe == 3)
+                        if (invernadero == 3)
                         {
-                            //Le agregamos el CafeVeracruz a miCafe
-                            miCafe = new CCVeracruz("Veravruz", 15);
-                            Console.WriteLine(miCafe);
+                            //Le agregamos a miInvernadero el invernadero de tierra
+                            miInvernadero = new CInverTierra("Invernadero de tierra", 150000);
+                            Console.WriteLine(miInvernadero);
 
-
-                        }
-
-                        if (cafe == 4)
-                        {
-                            //Le agregamos el CafeDescafeinado a miCafe
-                            miCafe = new CDescafeinado("Descafeinado", 17);
-                            Console.WriteLine(miCafe);
 
                         }
 
-                        if (cafe == 5)
-                        {
-                            //Le agregamos el CafeArabe a miCafe
-                            miCafe = new CCArabe("Arabe", 23);
-                            Console.WriteLine(miCafe);
-                        }
+                        
 
                         //Preguntamos si quiere un extra
 

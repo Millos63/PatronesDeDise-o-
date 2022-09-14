@@ -6,17 +6,39 @@ using System.Threading.Tasks;
 
 namespace Proyecto1erParcial
 {
+    ///Clase CInverTierra
+    ///Implementa IComponente
+    ///Autor: Emigdio Espinosa Jasso
+    ///Fecha: 14-09-2022
+    ///Versión: 1.0
     public class CProxy
     {
+        ///Interface ISujeto
+        ///Implementa IComponente
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 14-09-2022
+        ///Versión: 1.0
         public interface ISujeto
         {
             void Peticion(int pOpcion);
         }
 
+        ///Clase CProxySeguro
+        ///Implementa IComponente
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 14-09-2022
+        ///Versión: 1.0
         public class ProxySeguro : ISujeto
         {
             private CNomina nomina;
 
+            ///Autor: Emigdio Espinosa Jasso
+            ///Fecha: 14-09-2022
+            ///Versión: 1.0
+            /// <summary>
+            /// Metodo de interfaz que implementamos
+            /// </summary>
+            /// <param name="pOpcion"></param>
             public void Peticion(int pOpcion)
             {
                 string password;
@@ -24,7 +46,7 @@ namespace Proyecto1erParcial
                 Console.WriteLine("Dame el password");
                 password = Console.ReadLine();
 
-                if (password == "abc123")
+                if (password == "ROJOS")
                 {
                     if (nomina == null)
                     {
@@ -43,9 +65,19 @@ namespace Proyecto1erParcial
             }
         }
 
-        //Esta es la clase protegida
+        ///Clase CNomina
+        ///Implementa IComponente
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 14-09-2022
+        ///Versión: 1.0
         private class CNomina
         {
+            ///Autor: Emigdio Espinosa Jasso
+            ///Fecha: 14-09-2022
+            ///Versión: 1.0
+            /// <summary>
+            /// Metodo que guarda el nombre de los empleados y cuanto es su salario.
+            /// </summary>
             public void InfoNomina()
             {
                 Console.WriteLine("Cristobal: 3000");
@@ -58,7 +90,6 @@ namespace Proyecto1erParcial
 
                 Console.WriteLine("Dinero en caja:  40,000");
             }
-
         }
     }
 }

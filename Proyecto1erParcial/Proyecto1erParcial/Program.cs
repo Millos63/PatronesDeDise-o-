@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Proyecto1erParcial
 {
-    ///Esta clase se encarga de correr todo el programa
+    ///Se encarga de correr todo el programa
     ///Autor: Emigdio Espinosa Jasso
     ///Fecha: 14-09-2022
     ///Versión: 1.0
@@ -33,7 +29,7 @@ namespace Proyecto1erParcial
                 opc = Console.ReadLine();
 
                 //1. Venta de jitomate //Patrón estrategia
-                if(opc == "1")
+                if (opc == "1")
                 {
                     //Variables para guardar el numero de cajas de jitomates de los distintos tamaños
                     double j = 0;
@@ -44,12 +40,12 @@ namespace Proyecto1erParcial
 
                     //Variable para mandar el numero de cajas a las clases
                     double r = 0;
-                    
+
                     //Variables extras que serviran para el buen funcionamiento.
                     double costoJitomate = 0;
-                    string fecha = DateTime.Now.Date.ToString(); 
+                    string fecha = DateTime.Now.Date.ToString();
                     double color = 0;
-                    
+
 
                     string salir = "";
 
@@ -64,7 +60,7 @@ namespace Proyecto1erParcial
                     leer = Console.ReadLine();
                     costoJitomate = Convert.ToDouble(leer);
 
-                    while(salir != "2")
+                    while (salir != "2")
                     {
 
                         //El precio del jitomate cambia dependiendo que color se venda, pero todo en base al precio de la caja de jitomate XL del color rojo
@@ -98,7 +94,7 @@ namespace Proyecto1erParcial
                         //Verdes 
                         if (color == 1)
                         {
-                            Console.WriteLine("El precio de la caja de jitomate XL verde es de{0}", costoJitomate/2);
+                            Console.WriteLine("El precio de la caja de jitomate XL verde es de{0}", costoJitomate / 2);
                             miOperacion = new CVerde();
                             r = miOperacion.operacion(j, xl, l, m, s, costoJitomate);
                             Console.WriteLine("Se vendio un total de {0} pesos de jitomate verde", r);
@@ -131,29 +127,27 @@ namespace Proyecto1erParcial
                             Console.WriteLine("Se vendio un total de {0} pesos de jitomate rojo", r);
                         }
 
-                        ventaFinal += r; 
+                        ventaFinal += r;
 
                         Console.WriteLine("Deseas vender mas jitomates de otro color? 1.Si, 2.No");
                         salir = Console.ReadLine();
-                        
+
                     }
 
                     Console.WriteLine("\n\r Se obtuvieron {0} de ventas totales\n\r", ventaFinal);
-                    
+
                 }
 
                 //2. Construir un nuevo invernadero //DECORADOR
-                if(opc == "2")
+                if (opc == "2")
                 {
-                    
+
                     string opc2 = "";
                     int invernadero = 0;
                     int complemento = 0;
                     double metros = 0;
                     //Variable IComponente para guardar el invernadero seleccionado.
-
-                    IComponente miInvernadero = new CInverTierra("Tierra", 0);
-
+                    IComponente miInvernadero = new CInverTierra("Tierra", 0)
 
                     while (invernadero != 4)
                     {
@@ -168,7 +162,7 @@ namespace Proyecto1erParcial
                         //Preguntamos cuantos metros cuadrados va a construir
                         Console.WriteLine("Cuántos metros cuadrados tendra el invernadero?");
                         leer = Console.ReadLine();
-                        metros = Convert.ToDouble(leer) ;
+                        metros = Convert.ToDouble(leer);
 
                         if (invernadero == 4)
                             break;
@@ -212,32 +206,27 @@ namespace Proyecto1erParcial
                             if (complemento == 2)
                             {
                                 //Decoramos el invernadero con el sistema automatico de riego
-                                miInvernadero = new CSistemaRiego(miInvernadero,metros);
+                                miInvernadero = new CSistemaRiego(miInvernadero, metros);
                             }
 
                             if (complemento == 3)
                             {
                                 //Decoramos el invernadero con el cajon de abejorros
-                                miInvernadero= new CCajonAbejorros(miInvernadero);
+                                miInvernadero = new CCajonAbejorros(miInvernadero);
                             }
 
                             if (complemento == 4)
                             {
                                 //Decoramos el invernadero con un robot cosechador
-                                miInvernadero= new CCosechadorAutomatico(miInvernadero);
+                                miInvernadero = new CCosechadorAutomatico(miInvernadero);
                             }
 
-
                         }
-
                     }
-
 
                     Console.WriteLine(miInvernadero.Funciona());
                     Console.WriteLine("El costo total de construcción, ya con todos los componentes extra es de: " + miInvernadero.Costo());
                     //Console.WriteLine(miInvernadero);
-
-
                 }
 
                 //3. Pagar nomina // PROXY
@@ -247,12 +236,8 @@ namespace Proyecto1erParcial
 
                     miProxyS.Peticion(1);
                     Console.WriteLine("------");
-                    
                 }
-
             }
-
-
         }
     }
 }

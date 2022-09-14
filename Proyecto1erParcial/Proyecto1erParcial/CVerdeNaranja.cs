@@ -6,8 +6,26 @@ using System.Threading.Tasks;
 
 namespace Proyecto1erParcial
 {
+    ///Clase CVerdeNaranja
+    ///Implementa IOperacion
+    ///Autor: Emigdio Espinosa Jasso
+    ///Fecha: 14-09-2022
+    ///Versión: 1.0
     class CVerdeNaranja : IOperacion
     {
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 14-09-2022
+        ///Versión: 1.0
+        /// <summary>
+        /// Metodo que calcula el precio de los distintos tamaños de jitomate del color verde-naranja
+        /// </summary>
+        /// <param name="j"></param>
+        /// <param name="xl"></param>
+        /// <param name="l"></param>
+        /// <param name="m"></param>
+        /// <param name="s"></param>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public double operacion(double j, double xl, double l, double m, double s, double p)
         {
             //Variable para calcular el precio del jitomate verde-naranja según el precio del rojo.

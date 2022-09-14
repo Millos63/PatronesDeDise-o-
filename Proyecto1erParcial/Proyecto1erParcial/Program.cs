@@ -6,23 +6,29 @@ using System.Threading.Tasks;
 
 namespace Proyecto1erParcial
 {
+    ///Esta clase se encarga de correr todo el programa
+    ///Autor: Emigdio Espinosa Jasso
+    ///Fecha: 14-09-2022
+    ///Versión: 1.0
+
     class Program
     {
 
         static void Main(string[] args)
         {
-            //variables
+            //variables globales
             string opc = "";
+            string leer = "";
 
             //Interfaz de usuario
-            while(opc != "4")
+            while (opc != "4")
             {
                 Console.WriteLine("---------ROJOS-----------\n\r" +
                 "Bienvenido a la interfaz de usuario para la empresa ROJOS.\n\r" +
                 "Cuál es la acción que le gustaria realizar?\n\r" +
                 "1. Venta de jitomate \n\r" +
                 "2. Construir un nuevo invernadero \n\r" +
-                "3. Pagar nomina \n\r" +
+                "3. Información nomina\n\r" +
                 "4. Salir");
                 opc = Console.ReadLine();
 
@@ -43,7 +49,7 @@ namespace Proyecto1erParcial
                     double costoJitomate = 0;
                     string fecha = DateTime.Now.Date.ToString(); 
                     double color = 0;
-                    string leer = "";
+                    
 
                     string salir = "";
 
@@ -143,7 +149,7 @@ namespace Proyecto1erParcial
                     string opc2 = "";
                     int invernadero = 0;
                     int complemento = 0;
-
+                    double metros = 0;
                     //Variable IComponente para guardar el invernadero seleccionado.
 
                     IComponente miInvernadero = new CInverTierra("Tierra", 0);
@@ -152,95 +158,84 @@ namespace Proyecto1erParcial
                     while (invernadero != 4)
                     {
                         //Preguntamos a usuario que tipo de invernadero quiere
-                        Console.WriteLine("Qué invernadero le gustaria construir? \n\r 1.Invernadero Tierra. \n\r2.Invernadero Hidroponia. \n\r3. Invernadero Holandes \n\r4. Salir");
+                        Console.WriteLine("Qué tipo de invernadero le gustaria construir? \n\r1.Invernadero de Tierra. \n\r2.Invernadero Hidroponico. \n\r3.Invernadero Holandes \n\r4. Salir");
                         opc = Console.ReadLine();
                         invernadero = Convert.ToInt32(opc);
+
+                        if (invernadero == 4)
+                            break;
+
+                        //Preguntamos cuantos metros cuadrados va a construir
+                        Console.WriteLine("Cuántos metros cuadrados tendra el invernadero?");
+                        leer = Console.ReadLine();
+                        metros = Convert.ToDouble(leer) ;
 
                         if (invernadero == 4)
                             break;
                         if (invernadero == 1)
                         {
                             //Le agregamos a miInvernadero el invernadero de tierra
-                            miInvernadero = new CInverTierra("Invernadero de tierra", 150000);
+                            miInvernadero = new CInverTierra("Invernadero de tierra", 30 * metros);
                             Console.WriteLine(miInvernadero);
                         }
 
                         if (invernadero == 2)
                         {
                             //Le agregamos a miInvernadero el invernadero de tierra
-                            miInvernadero = new CInverTierra("Invernadero de tierra", 150000);
+                            miInvernadero = new CInverHidroponia("Invernadero hidroponico", 50 * metros);
                             Console.WriteLine(miInvernadero);
                         }
 
                         if (invernadero == 3)
                         {
                             //Le agregamos a miInvernadero el invernadero de tierra
-                            miInvernadero = new CInverTierra("Invernadero de tierra", 150000);
+                            miInvernadero = new CInverHolandes("Invernadero holandes", 70 * metros);
                             Console.WriteLine(miInvernadero);
 
 
                         }
 
-                        
+                        //Preguntamos si quiere extras en su invernadero
 
-                        //Preguntamos si quiere un extra
-
-
-                        while (complemento != 8)
+                        while (complemento != 5)
                         {
 
-                            Console.WriteLine("Deseas agregar un complemento? 1.Azucar, \n\r2.Miel, \n\r3.Panela, \n\r4.Leche, \n\r5.Crema, \n\r6.CremaBatida, \n\r7.Chocolate \n\r8.Salir");
+                            Console.WriteLine("que cosas le gustaria agregar extra a su invernadero, 1.Cortinas electricas, \n\r2.Sistema automatico de riego, \n\r3.Cajon de abejorros, \n\r4.Robot cosechador,\n\r5.Salir");
                             opc2 = Console.ReadLine();
                             complemento = Convert.ToInt32(opc2);
                             if (complemento == 1)
                             {
-                                //Decoramos el cafe con Azucar
-                                miCafe = new CAzucar(miCafe);
+                                //Decoramos el invernadero con cortinas electricas
+                                miInvernadero = new CCortinasElectricas(miInvernadero, metros);
                             }
 
                             if (complemento == 2)
                             {
-                                //Decoramos el cafe con Azucar
-                                miCafe = new CMiel(miCafe);
+                                //Decoramos el invernadero con el sistema automatico de riego
+                                miInvernadero = new CSistemaRiego(miInvernadero,metros);
                             }
 
                             if (complemento == 3)
                             {
-                                //Decoramos el cafe con Azucar
-                                miCafe = new CPanela(miCafe);
+                                //Decoramos el invernadero con el cajon de abejorros
+                                miInvernadero= new CCajonAbejorros(miInvernadero);
                             }
 
                             if (complemento == 4)
                             {
-                                //Decoramos el cafe con Azucar
-                                miCafe = new CLeche(miCafe);
+                                //Decoramos el invernadero con un robot cosechador
+                                miInvernadero= new CCosechadorAutomatico(miInvernadero);
                             }
 
-                            if (complemento == 5)
-                            {
-                                //Decoramos el cafe con Azucar
-                                miCafe = new CCrema(miCafe);
-                            }
 
-                            if (complemento == 6)
-                            {
-                                //Decoramos el cafe con Azucar
-                                miCafe = new CCremaBatida(miCafe);
-                            }
-
-                            if (complemento == 7)
-                            {
-                                //Decoramos el cafe con Azucar
-                                miCafe = new CChocolate(miCafe);
-                            }
                         }
 
                     }
 
 
-                    Console.WriteLine(miCafe.Funciona());
-                    Console.WriteLine("El Monto a pagar es: " + miCafe.Costo());
-                    Console.WriteLine(miCafe);
+                    Console.WriteLine(miInvernadero.Funciona());
+                    Console.WriteLine("El costo total de construcción, ya con todos los componentes extra es de: " + miInvernadero.Costo());
+                    //Console.WriteLine(miInvernadero);
 
 
                 }
@@ -248,7 +243,11 @@ namespace Proyecto1erParcial
                 //3. Pagar nomina // PROXY
                 if (opc == "3")
                 {
+                    CProxy.ISujeto miProxyS = new CProxy.ProxySeguro();
 
+                    miProxyS.Peticion(1);
+                    Console.WriteLine("------");
+                    
                 }
 
             }

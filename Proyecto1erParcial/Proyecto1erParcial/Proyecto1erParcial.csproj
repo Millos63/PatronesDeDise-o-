@@ -43,10 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CCajonAbejorros.cs" />
+    <Compile Include="CCortinasElectricas.cs" />
+    <Compile Include="CCosechadorAutomatico.cs" />
+    <Compile Include="CInverHidroponia.cs" />
+    <Compile Include="CInverHolandes.cs" />
+    <Compile Include="CInverTierra.cs" />
     <Compile Include="CNaranja.cs" />
+    <Compile Include="CProxy.cs" />
     <Compile Include="CRojo.cs" />
+    <Compile Include="CSistemaRiego.cs" />
     <Compile Include="CVerde.cs" />
     <Compile Include="CVerdeNaranja.cs" />
+    <Compile Include="IComponente.cs" />
     <Compile Include="IOperacion.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

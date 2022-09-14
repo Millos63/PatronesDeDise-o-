@@ -8,6 +8,6 @@ namespace Proyecto1erParcial
 {
     interface IOperacion
     {
-        double operacion(double a, double b, double c, double d, double e);
+        double operacion(double j, double xl, double l, double m, double s, double p);
     }
 }

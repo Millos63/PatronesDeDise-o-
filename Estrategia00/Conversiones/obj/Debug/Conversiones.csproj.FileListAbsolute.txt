@@ -5,3 +5,10 @@ C:\Users\Admin\Documents\UMAD 2\PartronesDeDiseño\Estrategia00\Conversiones\obj
 C:\Users\Admin\Documents\UMAD 2\PartronesDeDiseño\Estrategia00\Conversiones\obj\Debug\Conversiones.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\UMAD 2\PartronesDeDiseño\Estrategia00\Conversiones\obj\Debug\Conversiones.exe
 C:\Users\Admin\Documents\UMAD 2\PartronesDeDiseño\Estrategia00\Conversiones\obj\Debug\Conversiones.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Estrategia00\Conversiones\bin\Debug\Conversiones.exe.config
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Estrategia00\Conversiones\bin\Debug\Conversiones.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Estrategia00\Conversiones\bin\Debug\Conversiones.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Estrategia00\Conversiones\obj\Debug\Conversiones.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Estrategia00\Conversiones\obj\Debug\Conversiones.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Estrategia00\Conversiones\obj\Debug\Conversiones.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Estrategia00\Conversiones\obj\Debug\Conversiones.pdb

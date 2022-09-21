@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\obj\Debug\Bridge03.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\obj\Debug\Bridge03.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\obj\Debug\Bridge03.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\bin\Debug\Bridge03.exe.config
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\bin\Debug\Bridge03.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\bin\Debug\Bridge03.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\obj\Debug\Bridge03.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Bridge03\Bridge03\obj\Debug\Bridge03.pdb

@@ -20,6 +20,7 @@ namespace Proxy02
         {
             private CCocina cocina;
 
+
             public void Peticion(int pOpcion)
             {
                 if(cocina==null)

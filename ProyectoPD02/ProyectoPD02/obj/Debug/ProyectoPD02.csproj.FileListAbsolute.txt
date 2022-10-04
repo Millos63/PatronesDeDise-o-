@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\bin\Debug\ProyectoPD02.exe.config
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\bin\Debug\ProyectoPD02.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\bin\Debug\ProyectoPD02.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\obj\Debug\ProyectoPD02.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\obj\Debug\ProyectoPD02.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\obj\Debug\ProyectoPD02.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\obj\Debug\ProyectoPD02.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\ProyectoPD02\ProyectoPD02\obj\Debug\ProyectoPD02.pdb

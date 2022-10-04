@@ -1,8 +1,7 @@
-C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\obj\Debug\Componente04.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\obj\Debug\Componente04.csproj.SuggestedBindingRedirects.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\obj\Debug\Componente04.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\bin\Debug\Componente04.exe.config
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\bin\Debug\Componente04.exe
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\bin\Debug\Componente04.pdb
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\obj\Debug\Componente04.exe
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\obj\Debug\Componente04.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Componente04\Componente04\obj\Debug\Componente04.csprojAssemblyReference.cache

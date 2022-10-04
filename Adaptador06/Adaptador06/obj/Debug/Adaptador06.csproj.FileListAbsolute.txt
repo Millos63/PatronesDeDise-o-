@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\bin\Debug\Adaptador06.exe.config
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\bin\Debug\Adaptador06.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\bin\Debug\Adaptador06.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\obj\Debug\Adaptador06.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\obj\Debug\Adaptador06.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\obj\Debug\Adaptador06.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\obj\Debug\Adaptador06.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Adaptador06\Adaptador06\obj\Debug\Adaptador06.pdb

@@ -28,7 +28,7 @@ namespace Bridge03
             //Creamos el bridge
             //CAbstraccion bridge = new CAbstraccion(new CImplementacion1(), productos);
 
-            CAbstraccion bridge = new CAbstraccion(3, productos);
+            CAbstraccion bridge = new CAbstraccion(1, productos);
 
             bridge.MostrarTotales();
             bridge.Listar();

@@ -65,7 +65,7 @@ namespace ProyectoPD02
             StringBuilder infoElemento = new StringBuilder(new String('-', pProfundidad));
 
             //Adicionamos la informacion del compuesto
-            infoElemento.Append("Compuesto: " + Nombre + "elementos : " + elementos.Count + "\r\n");
+            infoElemento.Append( Nombre + " " + elementos.Count + "\r\n");
 
             //Adicionamos los elementos
             foreach (IComponente<T> elemento in elementos)

@@ -16,9 +16,11 @@ namespace ProyectoPD02
                 Console.WriteLine("Bienvenido al programa de control de los centros de alto rendimiento de LOMITOS FC ");
                 Console.WriteLine("Qué le gustaria ver? 1.Control de Centros de Alto rendimiento, 2.Control de pagos, 3.Salir");
                 opc = Console.ReadLine();
+                //Componente
+                //1.Control de centros de alto rendimiento
                 if (opc == "1")
                 {
-                    //Bridge
+                    
                     IComponente<string> arbol = new CCompuesto<string>("Control Centros de Rendimiento");
                     IComponente<string> trabajo = arbol;
 
@@ -29,13 +31,13 @@ namespace ProyectoPD02
                     while (opcion != "6")
                     {
                         Console.WriteLine("Estoy en {0}", trabajo.Nombre);
-                        Console.WriteLine("1. Adicionar compuesto, 2. Adicionar componente 3. Borrar, 4.Buscar, 5.Mostrar, 6.Salir");
+                        Console.WriteLine("1. Adicionar centro de rendimiento, 2.Adicionar jugador 3. Borrar, 4.Buscar, 5.Mostrar, 6.Salir");
                         opcion = Console.ReadLine();
                         Console.WriteLine("----------------");
 
                         if (opcion == "1")
                         {
-                            Console.WriteLine("Dame el nombre del compuesto: ");
+                            Console.WriteLine("Dime la ubicacion del centro de rendimiento: ");
                             dato = Console.ReadLine();
 
                             IComponente<string> c = new CCompuesto<string>(dato);
@@ -44,9 +46,8 @@ namespace ProyectoPD02
                         }
                         if (opcion == "2")
                         {
-                            Console.WriteLine("Dame el valor del compnente: ");
+                            Console.WriteLine("Dime el nombre del jugador ");
                             dato = Console.ReadLine();
-
                             trabajo.Adicionar(new CCompuesto<string>(dato));
                         }
 
@@ -68,7 +69,16 @@ namespace ProyectoPD02
                         {
                             Console.WriteLine(arbol.Mostrar(0));
                         }
+
+                        
                     }
+                }
+
+                //Bridge
+                //Control de pagos
+                if(opc == "2")
+                {
+
                 }
             }
 
@@ -76,7 +86,7 @@ namespace ProyectoPD02
 
 
 
-            
+
         }
     }
 }

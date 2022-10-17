@@ -39,32 +39,135 @@ namespace Subsistemas
     
     class CSubsistemaAlmacen
     {
-        private int cantidad; 
+        //Variables para guardar los productos del catalogo
+        private int cubo3;
+        private int cubo4;
+        private int cubo5;
+        private int piraminx;
+        private int ghost;
 
+        private int CB3;
+        private int CB4;
+        private int CB5;
+        private int PX;
+        private int GT;
+
+        //private int cantidad; 
+
+        //Metodo para inicializar los datos
+        public void Inicializar(int cb3, int cb4, int cb5, int px, int gt)
+        {
+            CB3 = cb3;
+            CB4 = cb4;
+            CB5 = cb5;
+            PX = px;
+            GT = gt;
+        }
+           
         public CSubsistemaAlmacen()
         {
-            cantidad = 3;
+            cubo3 = CB3;
+            cubo4 = CB4;
+            cubo5 = CB5;
+            piraminx = PX;
+            ghost = GT;
         }
 
-        public bool SacarAlmacen()
+        public bool SacarAlmacen(int opc)
         {
-            if(cantidad > 0)
+            
+            if(opc == 1)
             {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("Producto listo para enviarse");
-                cantidad--;
-                return true;
+                //Para cubo3
+                if (cubo3 > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Producto listo para enviarse");
+                    cubo3--;
+                    return true;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Producto no disponible, espera a que haya existencias");
+                    return false;
+                }
+                
+            }
+            else if (opc == 2)
+            {
+                //Para cubo4
+                if (cubo4 > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Producto listo para enviarse");
+                    cubo4--;
+                    return true;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Producto no disponible, espera a que haya existencias");
+                    return false;
+                }
+            } 
+            else if (opc == 3)
+            {
+                //Para cubo5
+                if (cubo5 > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Producto listo para enviarse");
+                    cubo5--;
+                    return true;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Producto no disponible, espera a que haya existencias");
+                    return false;
+                }
+
+            }
+            else if (opc == 4)
+            {
+                //Para piraminx
+                if (piraminx > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Producto listo para enviarse");
+                    piraminx--;
+                    return true;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Producto no disponible, espera a que haya existencias");
+                    return false;
+                }
+            }
+            else if (opc == 5)
+            {
+                //Para piraminx
+                if (ghost > 0)
+                {
+                    Console.ForegroundColor = ConsoleColor.Yellow;
+                    Console.WriteLine("Producto listo para enviarse");
+                    ghost--;
+                    return true;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Producto no disponible, espera a que haya existencias");
+                    return false;
+                }
             }
             else
             {
-                Console.ForegroundColor=ConsoleColor.Red;
-                Console.WriteLine("Producto no disponible, espera a que haya existencias");
                 return false;
             }
         }
-
-        
-
     }
 
     /////
@@ -79,6 +182,18 @@ namespace Subsistemas
         }
     }
 
+    class CSubsistemaDevolucion
+    {
+        public void Devolucion()
+        {
+
+        }
+    }
+
     //Catalogo de 5 productos
     //Cual producto y que cantidad
+
+    //Dentro de fachada
+    //Devolucion
+    //Enviar de regreso
 }

@@ -63,6 +63,22 @@ namespace Subsistemas
             }
         }
 
+        
 
     }
+
+    /////
+    ///
+
+    class CSubsistemaEnvio
+    {
+        public void EnviarPedido()
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("El envio va en camino");
+        }
+    }
+
+    //Catalogo de 5 productos
+    //Cual producto y que cantidad
 }

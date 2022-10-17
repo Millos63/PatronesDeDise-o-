@@ -47,6 +47,9 @@
     <Compile Include="CComponente.cs" />
     <Compile Include="CCompuesto.cs" />
     <Compile Include="CImplementacion1.cs" />
+    <Compile Include="CImplementacion2.cs" />
+    <Compile Include="CImplementacion3.cs" />
+    <Compile Include="CImplementacion4.cs" />
     <Compile Include="IBridge.cs" />
     <Compile Include="IComponente.cs" />
     <Compile Include="Program.cs" />

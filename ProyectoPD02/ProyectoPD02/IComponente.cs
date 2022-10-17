@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace ProyectoPD02
 {
+    ///Interface IComponente
+    ///Autor: Emigdio Espinosa Jasso
+    ///Fecha: 12-10-2022
+    ///Versión: 1.0
     internal interface IComponente <T>
     {
         T Nombre { get; set; }

@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\bin\Debug\netcoreapp3.1\Prototipo08.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\bin\Debug\netcoreapp3.1\Prototipo08.deps.json
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\bin\Debug\netcoreapp3.1\Prototipo08.runtimeconfig.json
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\bin\Debug\netcoreapp3.1\Prototipo08.runtimeconfig.dev.json
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\bin\Debug\netcoreapp3.1\Prototipo08.dll
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\bin\Debug\netcoreapp3.1\Prototipo08.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.AssemblyInfo.cs
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.dll
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Prototipo08\Prototipo08\obj\Debug\netcoreapp3.1\Prototipo08.genruntimeconfig.cache

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Subsistemas
 {
@@ -21,22 +17,22 @@ namespace Subsistemas
 
             if (dato == "12345")
             {
-                Console.ForegroundColor= ConsoleColor.Green;
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Pago aceptado");
                 return true;
             }
             else
             {
-                Console.ForegroundColor= ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Pago rechazado");
-                return false;   
+                return false;
             }
 
         }
     }
 
     ////
-    
+
     class CSubsistemaAlmacen
     {
         //Variables para guardar los productos del catalogo
@@ -46,43 +42,34 @@ namespace Subsistemas
         private int piraminx;
         private int ghost;
 
-        private int CB3;
-        private int CB4;
-        private int CB5;
-        private int PX;
-        private int GT;
-
         //private int cantidad; 
 
         //Metodo para inicializar los datos
         public void Inicializar(int cb3, int cb4, int cb5, int px, int gt)
         {
-            CB3 = cb3;
-            CB4 = cb4;
-            CB5 = cb5;
-            PX = px;
-            GT = gt;
+            cubo3 = cb3;
+            cubo4 = cb4;
+            cubo5 = cb5;
+            piraminx = px;
+            ghost = gt;
         }
-           
+
         public CSubsistemaAlmacen()
         {
-            cubo3 = CB3;
-            cubo4 = CB4;
-            cubo5 = CB5;
-            piraminx = PX;
-            ghost = GT;
+
+
         }
 
         public bool SacarAlmacen(int opc)
         {
-            
-            if(opc == 1)
+
+            if (opc == 1)
             {
                 //Para cubo3
                 if (cubo3 > 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Producto listo para enviarse");
+                    Console.WriteLine("Se ha enviado un cubo 3x3");
                     cubo3--;
                     return true;
                 }
@@ -92,7 +79,7 @@ namespace Subsistemas
                     Console.WriteLine("Producto no disponible, espera a que haya existencias");
                     return false;
                 }
-                
+
             }
             else if (opc == 2)
             {
@@ -100,7 +87,7 @@ namespace Subsistemas
                 if (cubo4 > 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Producto listo para enviarse");
+                    Console.WriteLine("Se ha enviado un cubo 4x4");
                     cubo4--;
                     return true;
                 }
@@ -110,14 +97,14 @@ namespace Subsistemas
                     Console.WriteLine("Producto no disponible, espera a que haya existencias");
                     return false;
                 }
-            } 
+            }
             else if (opc == 3)
             {
                 //Para cubo5
                 if (cubo5 > 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Producto listo para enviarse");
+                    Console.WriteLine("Se ha enviado un cubo 5*5");
                     cubo5--;
                     return true;
                 }
@@ -135,7 +122,7 @@ namespace Subsistemas
                 if (piraminx > 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Producto listo para enviarse");
+                    Console.WriteLine("Se ha enviado un cubo piraminx");
                     piraminx--;
                     return true;
                 }
@@ -152,7 +139,7 @@ namespace Subsistemas
                 if (ghost > 0)
                 {
                     Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("Producto listo para enviarse");
+                    Console.WriteLine("Se ha enviado un cubo ghost");
                     ghost--;
                     return true;
                 }
@@ -163,10 +150,78 @@ namespace Subsistemas
                     return false;
                 }
             }
+            else if (opc == 6)
+            {
+                Console.WriteLine("Programa terminado");
+                return false;
+            }
             else
             {
                 return false;
             }
+        }
+
+
+        public bool RegresarAlmacen(int opc)
+        {
+            if (opc == 1)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Devolucion en camino");
+                cubo3++;
+                return true;
+
+
+            }
+            else if (opc == 2)
+            {
+
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Devolucion en camino");
+                cubo4++;
+                return true;
+            }
+            else if (opc == 3)
+            {
+
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Devolucion en camino");
+                cubo5++;
+                return true;
+
+
+            }
+            else if (opc == 4)
+            {
+
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Devolucion en camino");
+                piraminx++;
+                return true;
+
+            }
+            else if (opc == 5)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Devolucion en camino");
+                ghost++;
+                return true;
+            }
+            else if (opc == 6)
+            {
+                Console.WriteLine("Programa terminado");
+                return false;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        public void cantidadProductos()
+        {
+            Console.WriteLine("{0}, {1}, {2}, {3}, {4}, {5}", cubo3, cubo4, cubo5, piraminx, ghost);
+
         }
     }
 
@@ -184,8 +239,15 @@ namespace Subsistemas
 
     class CSubsistemaDevolucion
     {
-        public void Devolucion()
+
+    }
+    
+    class CSubsistemaEnvioDev
+    {
+        public void EnviarPedido()
         {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("La devolucion va en camino");
 
         }
     }

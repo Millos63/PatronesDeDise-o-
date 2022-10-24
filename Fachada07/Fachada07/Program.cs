@@ -17,28 +17,27 @@ namespace Fachada07
         {
             //Creamos la instancia de la fachada
             CFachada fachada = new CFachada();
+            string opc = "";
+            
+            while (opc != "3")
+            {
+                Console.WriteLine("------------------Tienda de rubiks The Maiosha-------------------");
+                Console.WriteLine("Qué deseas hacer? 1. Comprar un producto, 2. Devolver un producto, 3. Salir");
+                opc = Console.ReadLine();
 
-            //Hacemos uso de los subsistemas a traves de la interfaz
-            //sencilla de la fachada
-            fachada.Compra();
-
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("-------");
-
-            fachada.Compra();
-
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("-------");
-
-            fachada.Compra();
-
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("-------");
-
-            fachada.Compra();
-
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("-------");
+                if (opc == "1")
+                {
+                    //Hacemos uso de los subsistemas a traves de la interfaz
+                    //sencilla de la fachada
+                    fachada.Compra();
+                }
+                
+                if (opc == "2")
+                {
+                    fachada.Devolucion();
+                }
+            }
+            
 
         }
     }

@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\bin\Debug\MetodoFabricaComputadoras.exe.config
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\bin\Debug\MetodoFabricaComputadoras.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\bin\Debug\MetodoFabricaComputadoras.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\obj\Debug\MetodoFabricaComputadoras.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\obj\Debug\MetodoFabricaComputadoras.csproj.SuggestedBindingRedirects.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\obj\Debug\MetodoFabricaComputadoras.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\obj\Debug\MetodoFabricaComputadoras.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\MetodoFabricaComputadoras\MetodoFabricaComputadoras\obj\Debug\MetodoFabricaComputadoras.pdb

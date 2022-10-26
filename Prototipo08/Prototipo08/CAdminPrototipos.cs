@@ -6,6 +6,8 @@ namespace Prototipo08
 {
     internal class CAdminPrototipos
     {
+
+        //Dictionary
         private Dictionary<string, IPrototipo> prototipos = new Dictionary<string, IPrototipo>();
         
         public CAdminPrototipos()

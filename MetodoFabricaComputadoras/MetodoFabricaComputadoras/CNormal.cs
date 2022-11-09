@@ -8,6 +8,10 @@ namespace MetodoFabricaComputadoras
 {
     internal class CNormal:IComputadora
     {
+        public void TipoComputadora()
+        {
+            Console.WriteLine("Computadora Normal");
+        }
         public void Procesador()
         {
             Console.WriteLine("Procesador: Intel core I5 6ta gen");

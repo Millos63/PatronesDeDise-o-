@@ -8,6 +8,10 @@ namespace MetodoFabricaComputadoras
 {
     internal class CGamer:IComputadora
     {
+        public void TipoComputadora()
+        {
+            Console.WriteLine("Computadora Gamer");
+        }
         public void Procesador()
         {
             Console.WriteLine("Procesador: Intel Core I5 11gen ");

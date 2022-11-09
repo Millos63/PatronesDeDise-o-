@@ -8,6 +8,10 @@ namespace MetodoFabricaComputadoras
 {
     internal class CMac:IComputadora
     {
+        public void TipoComputadora()
+        {
+            Console.WriteLine("Computadora MAC");
+        }
         public void Procesador()
         {
             Console.WriteLine("Procesador: Intel Core 2QUAD");

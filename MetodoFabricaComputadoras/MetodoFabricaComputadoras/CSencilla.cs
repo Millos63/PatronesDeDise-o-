@@ -8,6 +8,10 @@ namespace MetodoFabricaComputadoras
 {
     internal class CSencilla : IComputadora
     {
+        public void TipoComputadora()
+        {
+            Console.WriteLine("Computadora Sencilla");
+        }
         public void Procesador()
         {
             Console.WriteLine("Procesador: Intel Celeron");

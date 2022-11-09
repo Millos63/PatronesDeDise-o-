@@ -8,6 +8,7 @@ namespace MetodoFabricaComputadoras
 {
     internal interface IComputadora
     {
+        void TipoComputadora();
         void Procesador();
         void TarjetaGrafica();
         void MemoriaRam();

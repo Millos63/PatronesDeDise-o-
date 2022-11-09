@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CCaja.cs" />
     <Compile Include="CCreador.cs" />
     <Compile Include="CGamer.cs" />
     <Compile Include="CMac.cs" />

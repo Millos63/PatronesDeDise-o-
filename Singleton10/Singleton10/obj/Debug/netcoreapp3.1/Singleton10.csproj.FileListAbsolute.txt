@@ -1,0 +1,14 @@
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\bin\Debug\netcoreapp3.1\Singleton10.exe
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\bin\Debug\netcoreapp3.1\Singleton10.deps.json
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\bin\Debug\netcoreapp3.1\Singleton10.runtimeconfig.json
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\bin\Debug\netcoreapp3.1\Singleton10.runtimeconfig.dev.json
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\bin\Debug\netcoreapp3.1\Singleton10.dll
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\bin\Debug\netcoreapp3.1\Singleton10.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.AssemblyInfo.cs
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.dll
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\Singleton10\Singleton10\obj\Debug\netcoreapp3.1\Singleton10.genruntimeconfig.cache

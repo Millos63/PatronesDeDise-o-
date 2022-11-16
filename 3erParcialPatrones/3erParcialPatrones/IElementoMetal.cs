@@ -8,5 +8,6 @@ namespace _3erParcialPatrones
     {
         void fabricar();
         string obtenDatos();
+        int costo();
     }
 }

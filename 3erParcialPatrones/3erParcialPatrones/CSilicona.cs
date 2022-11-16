@@ -8,14 +8,19 @@ namespace _3erParcialPatrones
     {
         public void producir()
         {
-            Console.WriteLine("Se esta produciendo el silicon para la protesis");
+            Console.WriteLine("Se esta produciendo las piezas de silicon para la protesis");
 
         }
 
         public string composicion()
         {
-            Console.WriteLine("");
+            return "Silicona: Elasticidad y flexibilidad, aislante electrico, es resistente a la deformacion por compresion";
         }
-    
+
+        public int costo()
+        {
+            return 2800;
+        }
+
     }
 }

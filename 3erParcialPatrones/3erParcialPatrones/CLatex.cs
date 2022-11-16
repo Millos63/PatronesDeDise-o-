@@ -8,12 +8,17 @@ namespace _3erParcialPatrones
     {
         public void producir()
         {
-            Console.WriteLine();
+            Console.WriteLine("Produciendo las piezas de latex para la protesis");
         }
 
         public string composicion()
         {
+            return "Latex: Alta elasticidad, hidrofobicidad y resistencia electrica";
+        }
 
+        public int costo()
+        {
+            return 2000;
         }
     }
 }

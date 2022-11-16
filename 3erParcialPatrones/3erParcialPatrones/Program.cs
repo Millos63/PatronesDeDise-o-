@@ -4,6 +4,10 @@ namespace _3erParcialPatrones
 {
     internal class Program
     {
+        ///Se encarga de correr todo el programa
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 16-11-2022
+        ///Versión: 1.0
         static void Main(string[] args)
         {
             //Variables para el buen funcionamiento

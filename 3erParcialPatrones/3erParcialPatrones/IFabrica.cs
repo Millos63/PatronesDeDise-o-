@@ -4,6 +4,10 @@ using System.Text;
 
 namespace _3erParcialPatrones
 {
+    ///Interface IFabrica
+    ///Autor: Emigdio Espinosa Jasso
+    ///Fecha: 16-11-2022
+    ///Versión: 1.0
     interface IFabrica
     {
         void crearProtesis();

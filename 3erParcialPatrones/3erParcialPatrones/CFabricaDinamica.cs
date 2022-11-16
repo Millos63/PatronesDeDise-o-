@@ -2,19 +2,15 @@
 
 namespace _3erParcialPatrones
 {
+    ///Clase CFabricaDinamica
+    ///Autor: Emigdio Espinosa Jasso
+    ///Fecha: 16-11-2022
+    ///Versión: 1.0
     internal class CFabricaDinamica : IFabrica
     {
-        /// <summary>
-        /// CAMBIO EN GIT
-        /// </summary>
-
-
-
         private IElementoPlastico partesPlasticas;
         private IElementoMetal partesMetalicas;
-
         private IElementoElectrico partesElectricas1;
-
         private IElementoElectrico partesElectricas2;
         private IElementoElectrico partesElectricas3;
 
@@ -24,9 +20,12 @@ namespace _3erParcialPatrones
         public IElementoElectrico ObtenElementoElectrico2 { get { return partesElectricas2; } }
         public IElementoElectrico ObtenElementoElectrico3 { get { return partesElectricas3; } }
 
-
-        
-
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 16-11-2022
+        ///Versión: 1.0
+        /// <summary>
+        /// Metodo de la interfaz que el usuario conoce, nos ayuda a crear la protesis
+        /// </summary>
         public void crearProtesis()
         {
             string material = "";
@@ -68,16 +67,11 @@ namespace _3erParcialPatrones
                 partesMetalicas = new CFibraDeCarbono();
             }
 
-
             partesElectricas1 = new CCables();
 
             partesElectricas2 = new CArduino();
 
             partesElectricas3 = new CServoMotores();
-
-
-
-
 
         }
     }

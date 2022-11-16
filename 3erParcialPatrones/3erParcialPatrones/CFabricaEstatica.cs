@@ -2,6 +2,10 @@
 
 namespace _3erParcialPatrones
 {
+    ///Clase CFabricaEstatica
+    ///Autor: Emigdio Espinosa Jasso
+    ///Fecha: 16-11-2022
+    ///Versión: 1.0
     internal class CFabricaEstatica : IFabrica
     {
         private IElementoPlastico partesPlasticas;
@@ -17,12 +21,28 @@ namespace _3erParcialPatrones
 
         string opc;
         string material;
+
+
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 16-11-2022
+        ///Versión: 1.0
+        /// <summary>
+        /// Metodo 1. Constructor de la clase CFabricaEstatica
+        /// </summary>
+        /// <param name="pOpc"></param>
         public CFabricaEstatica(string pOpc)
         {
             opc = pOpc;
 
         }
 
+
+        ///Autor: Emigdio Espinosa Jasso
+        ///Fecha: 16-11-2022
+        ///Versión: 1.0
+        /// <summary>
+        /// Metodo de la interfaz que el usuario conoce, nos ayuda a Crear la protesis
+        /// </summary>
         public void crearProtesis()
         {
 

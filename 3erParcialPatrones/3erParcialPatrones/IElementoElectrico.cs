@@ -8,5 +8,6 @@ namespace _3erParcialPatrones
     {
         void adquirir();
         string informacion();
+        
     }
 }

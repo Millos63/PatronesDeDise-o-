@@ -13,7 +13,7 @@ namespace _3erParcialPatrones
 
         public string composicion()
         {
-            return "Latex: Alta elasticidad, hidrofobicidad y resistencia electrica";
+            return "LATEX: Alta elasticidad, hidrofobicidad y resistencia electrica";
         }
 
         public int costo()

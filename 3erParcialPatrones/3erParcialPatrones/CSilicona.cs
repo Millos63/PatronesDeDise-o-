@@ -14,7 +14,7 @@ namespace _3erParcialPatrones
 
         public string composicion()
         {
-            return "Silicona: Elasticidad y flexibilidad, aislante electrico, es resistente a la deformacion por compresion";
+            return "SILICONA: Elasticidad y flexibilidad, aislante electrico, es resistente a la deformacion por compresion";
         }
 
         public int costo()

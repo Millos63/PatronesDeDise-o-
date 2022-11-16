@@ -12,7 +12,7 @@ namespace _3erParcialPatrones
         }
         public string informacion()
         {
-            return "Los cables que se ocuparan son diseñados especialmente para la protesis, resistentes y de muy buena calidad";
+            return "CABLES: Los cables que se ocuparan son diseñados especialmente para la protesis, resistentes y de muy buena calidad";
         }
     }
 }

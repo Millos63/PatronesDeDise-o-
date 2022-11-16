@@ -13,7 +13,7 @@ namespace _3erParcialPatrones
 
         public string informacion()
         {
-            return "Los servoMotores nos serviran para darle todo el movimiento a la protesis, ocuparemos los de la mejor calidad";
+            return " SERVO-MOTORES: Los Servo-Motores nos serviran para darle todo el movimiento a la protesis, ocuparemos los de la mejor calidad";
         }
     }
 }

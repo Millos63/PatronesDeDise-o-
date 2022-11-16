@@ -12,7 +12,7 @@ namespace _3erParcialPatrones
         }
         public string obtenDatos()
         {
-            return "Aluminio: Ligera, resistente y de larga duracion. Tiene una excelente conductividad de la electricidad";
+            return "ALUMINIO: Ligera, resistente y de larga duracion. Tiene una excelente conductividad de la electricidad";
         }
         public int costo()
         {

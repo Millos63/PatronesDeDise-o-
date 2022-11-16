@@ -12,7 +12,7 @@ namespace _3erParcialPatrones
         }
         public string informacion()
         {
-            return "Los arduinos nos ayudaran a conectarnos a otros dispositivos para interactuar con otro programa para la movilidad de la protesis";
+            return "ARDUINO: Los arduinos nos ayudaran a conectarnos a otros dispositivos para interactuar con otro programa para la movilidad de la protesis";
         }
     }
 }

@@ -25,10 +25,7 @@ namespace _3erParcialPatrones
         public IElementoElectrico ObtenElementoElectrico3 { get { return partesElectricas3; } }
 
 
-        /* public CFabricaDinamica(int pElemento)
-         {
-             elemento = pElemento;
-         }*/
+        
 
         public void crearProtesis()
         {
@@ -53,10 +50,10 @@ namespace _3erParcialPatrones
                 partesPlasticas = new CSilicona();
             }
 
-            Console.WriteLine("Que metal le gustaria ocupar para la creacion de su protesis dinamica?" +
+            Console.WriteLine("\nQue metal le gustaria ocupar para la creacion de su protesis dinamica?" +
            "\n 1. Acero: 4000 " +
            "\n 2. Aluminio: 5000" +
-           "\n 3. Fibra de carbono: 6000");
+           "\n 3. Fibra de carbono: 6000\n");
             material = Console.ReadLine();
             if (material == "1")
             {

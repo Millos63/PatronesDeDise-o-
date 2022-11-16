@@ -12,7 +12,7 @@ namespace _3erParcialPatrones
         }
         public string obtenDatos()
         {
-            return "Acero: Material rigido, resistencia a la corrosion y elevada resistencia mecanica";
+            return "ACERO: Material rigido, resistencia a la corrosion y elevada resistencia mecanica";
         }
 
         public int costo()

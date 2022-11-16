@@ -12,7 +12,7 @@ namespace _3erParcialPatrones
         }
         public string obtenDatos()
         {
-            return "Fibra de carbono: Muy resistente, baja conductividad termica, excelente conductor de electricidad, material liviano";
+            return "FIBRA DE CARBONO: Muy resistente, baja conductividad termica, excelente conductor de electricidad, material liviano";
         }
         public int costo()
         {

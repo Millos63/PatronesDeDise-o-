@@ -4,10 +4,11 @@ C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialP
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\bin\Debug\netcoreapp3.1\3erParcialPatrones.runtimeconfig.dev.json
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\bin\Debug\netcoreapp3.1\3erParcialPatrones.dll
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\bin\Debug\netcoreapp3.1\3erParcialPatrones.pdb
-C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.csprojAssemblyReference.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.AssemblyInfoInputs.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.AssemblyInfo.cs
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.dll
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.pdb
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.genruntimeconfig.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\3erParcialPatrones\3erParcialPatrones\obj\Debug\netcoreapp3.1\3erParcialPatrones.GeneratedMSBuildEditorConfig.editorconfig

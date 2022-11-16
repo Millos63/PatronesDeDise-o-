@@ -9,8 +9,12 @@ namespace _3erParcialPatrones
             //Variables para el buen funcionamiento
             string opc = "";
             string tipo = "";
-            
-            
+            string nip = "";
+
+            //Variable para sumar los costos
+            int costoFinal = 0;
+
+
             // Pequeña interfaz de interaccion con el usuario  
             Console.WriteLine("----------------NEURO-EXO----------------" +
             "\n Bienvenido a la fabrica de Neuro-Exo, donde se crean protesis." +
@@ -39,17 +43,19 @@ namespace _3erParcialPatrones
                 if (opc == "1")
                 {
                     miPlastico.producir();
+                    costoFinal = miPlastico.costo();
                     Console.WriteLine("Fabricando la protesis hecha de:{0} " +
-                    "\nCosto Final:{1}", miPlastico.composicion(), miPlastico.costo());
+                    "\nCosto Final:{1}", miPlastico.composicion(), costoFinal);
                 }
                 // opc = 2. Metalicas.
                 if (opc == "2")
                 {
                     miMetal.fabricar();
+                    costoFinal = miMetal.costo();
                     Console.WriteLine("Fabricando la protesis hecha de: {0} " +
-                    "\nCosto Final:{1}", miMetal.obtenDatos(), miMetal.costo());
+                    "\nCosto Final:{1}", miMetal.obtenDatos(), costoFinal);
                 }
-                Console.WriteLine("\n\n\n\n\n");
+                
             }
 
 
@@ -57,8 +63,7 @@ namespace _3erParcialPatrones
             // tipo = 2. Protesis dinamica
             if (tipo == "2")
             {
-                //Variable para sumar los costos
-                int costoFinal = 0;
+                
 
                 Console.WriteLine("\nPROTESIS DINAMICAS" +
                 "\nEstas protesis son protesis mas avanzadas, y ocupan de un elemento plastico y uno metalico, así como de todos los elementos electricos." +
@@ -103,9 +108,41 @@ namespace _3erParcialPatrones
             }
 
 
+            // SINGLETON
+
+            Console.WriteLine("\n\nProcedemos a hacer el pago correspondiente a la protesis construida");
+
+            //Obtenemos la instancia, se crea por primera vez
+            CSingleton uno = CSingleton.ObtenInstancia();
+
+            // Hacemos algo con la instancia
+            uno.PonerDatos(costoFinal);
+            Console.WriteLine(uno);
+            while(nip != "1025")
+            {
+                Console.WriteLine("Introduzca su nip:");
+                nip = Console.ReadLine();
+                if (nip == "1025")
+                {
+                    Console.ForegroundColor= ConsoleColor.Green;
+                    uno.ProcesandoPago();
+                    Console.WriteLine("----------");
+                }
+                else
+                {
+                    Console.WriteLine("Su nip es incorrecto, vuelva a intentanrlo");
+                }
+
+            }
             
 
-            
+
+            Console.ForegroundColor =ConsoleColor.White;
+            Console.WriteLine("\n\n\n\n\n");
+
+
+
+
 
 
         }

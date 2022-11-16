@@ -45,39 +45,29 @@ namespace _3erParcialPatrones
 
 
             ///Fabrica dinamica
+            ///
+
             if (tipo == "2")
             {
-                int elemento = 1;
                 Console.WriteLine("Estas protesis son protesis mas avanzadas, y ocupan de cada uno de los elementos de la fabrica para su producción");
 
-                IFabrica miFabrica = new CFabricaDinamica(elemento);
+                IFabrica miFabrica = new CFabricaDinamica();
                 miFabrica.crearProtesis();
                 IElementoPlastico miPlastico = miFabrica.ObtenElementoPlastico;
+                IElementoMetal miMetal = miFabrica.ObtenElementoMetal;
+
+                miPlastico.producir();
                 
+                Console.WriteLine("Ocupando para la protesis:{0} ", miPlastico.composicion() +);
 
-
-                elemento = 1; 
-                if(elemento == 1)
-                {
-                    miPlastico.producir();
-                    Console.WriteLine("Se ocupara el plastico con ciertas propiedades:{0} ", miPlastico.composicion());
-                }
-
-
-                int elemento2 = 2;
-                IFabrica miFabrica2 = new CFabricaDinamica(elemento2);
-                //IElementoPlastico miPlastico2 = miFabrica2.ObtenElementoPlastico;
-                IElementoMetal miMetal = miFabrica2.ObtenElementoMetal;
-                miFabrica2.crearProtesis();
                 miMetal.fabricar();
-                if (elemento2 == 2)
-                {
-                    miMetal.fabricar();
-                    Console.WriteLine("Se ocupara el metal con ciertas propiedades:{0}", miMetal.obtenDatos());
-                }
+                Console.WriteLine("Ocupando para la protesis: {0}", miMetal.obtenDatos());
 
 
-                IElementoElectrico miElectrico = miFabrica.ObtenElementoElectrico;
+              
+
+
+                //IElementoElectrico miElectrico = miFabrica.ObtenElementoElectrico;
                 
             }
 

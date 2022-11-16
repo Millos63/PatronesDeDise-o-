@@ -4,6 +4,9 @@ namespace _3erParcialPatrones
 {
     internal class CFabricaDinamica : IFabrica
     {
+        /// <summary>
+        /// CAMBIO EN GIT
+        /// </summary>
         private int elemento = 0; 
 
         private IElementoPlastico partesPlasticas;

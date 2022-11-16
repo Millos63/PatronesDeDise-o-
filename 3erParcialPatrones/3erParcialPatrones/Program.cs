@@ -58,17 +58,24 @@ namespace _3erParcialPatrones
 
                 miPlastico.producir();
                 
-                Console.WriteLine("Ocupando para la protesis:{0} ", miPlastico.composicion() +);
+                Console.WriteLine("Ocupando para la protesis:{0} ", miPlastico.composicion() );
 
                 miMetal.fabricar();
                 Console.WriteLine("Ocupando para la protesis: {0}", miMetal.obtenDatos());
 
+                IElementoElectrico miElectrico = miFabrica.ObtenElementoElectrico;
+                IElementoElectrico miElectrico2 = miFabrica.ObtenElementoElectrico2;
+                IElementoElectrico miElectrico3 = miFabrica.ObtenElementoElectrico3;
 
-              
+                Console.WriteLine("Se ocuparan todos los componentes electricos en la fabrica para la protesis dinamica");
+
+                miElectrico.adquirir();
+                miElectrico2.adquirir();
+                miElectrico3.adquirir();
 
 
-                //IElementoElectrico miElectrico = miFabrica.ObtenElementoElectrico;
-                
+
+
             }
 
 

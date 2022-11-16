@@ -8,6 +8,8 @@ namespace _3erParcialPatrones
     {
         void crearProtesis();
         IElementoElectrico ObtenElementoElectrico { get; }
+        IElementoElectrico ObtenElementoElectrico2 { get; }
+        IElementoElectrico ObtenElementoElectrico3 { get; }
 
         IElementoMetal ObtenElementoMetal { get; }
 

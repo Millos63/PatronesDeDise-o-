@@ -12,6 +12,8 @@ namespace _3erParcialPatrones
 
         //En esta protesis no se ocuparan elementos electricos, pero lo llamamos para que no haya error con la interfaz
         public IElementoElectrico ObtenElementoElectrico { get; }
+        public IElementoElectrico ObtenElementoElectrico2 { get; }
+        public IElementoElectrico ObtenElementoElectrico3 { get; }
 
         string opc;
         string material;
@@ -65,9 +67,8 @@ namespace _3erParcialPatrones
                 {
                     partesMetalicas = new CFibraDeCarbono();
                 }
+
             }
-
-
         }
     }
 }

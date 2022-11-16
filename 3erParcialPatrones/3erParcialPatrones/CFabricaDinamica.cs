@@ -8,19 +8,27 @@ namespace _3erParcialPatrones
         /// CAMBIO EN GIT
         /// </summary>
 
-        private int elemento = 0;
+
 
         private IElementoPlastico partesPlasticas;
         private IElementoMetal partesMetalicas;
-        private IElementoElectrico partesElectricas;
+
+        private IElementoElectrico partesElectricas1;
+
+        private IElementoElectrico partesElectricas2;
+        private IElementoElectrico partesElectricas3;
+
         public IElementoPlastico ObtenElementoPlastico { get { return partesPlasticas; } }
         public IElementoMetal ObtenElementoMetal { get { return partesMetalicas; } }
-        public IElementoElectrico ObtenElementoElectrico { get { return partesElectricas; } }
+        public IElementoElectrico ObtenElementoElectrico { get { return partesElectricas1; } }
+        public IElementoElectrico ObtenElementoElectrico2 { get { return partesElectricas2; } }
+        public IElementoElectrico ObtenElementoElectrico3 { get { return partesElectricas3; } }
 
-       /* public CFabricaDinamica(int pElemento)
-        {
-            elemento = pElemento;
-        }*/
+
+        /* public CFabricaDinamica(int pElemento)
+         {
+             elemento = pElemento;
+         }*/
 
         public void crearProtesis()
         {
@@ -62,6 +70,15 @@ namespace _3erParcialPatrones
             {
                 partesMetalicas = new CFibraDeCarbono();
             }
+
+
+            partesElectricas1 = new CCables();
+
+            partesElectricas2 = new CArduino();
+
+            partesElectricas3 = new CServoMotores();
+
+
 
 
 

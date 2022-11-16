@@ -4,8 +4,6 @@ C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbst
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\bin\Debug\netcoreapp3.1\FabricaAbstracta11.runtimeconfig.dev.json
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\bin\Debug\netcoreapp3.1\FabricaAbstracta11.dll
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\bin\Debug\netcoreapp3.1\FabricaAbstracta11.pdb
-C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\obj\Debug\netcoreapp3.1\FabricaAbstracta11.csproj.AssemblyReference.cache
-C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\obj\Debug\netcoreapp3.1\FabricaAbstracta11.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\obj\Debug\netcoreapp3.1\FabricaAbstracta11.AssemblyInfoInputs.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\obj\Debug\netcoreapp3.1\FabricaAbstracta11.AssemblyInfo.cs
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\FabricaAbstracta11\FabricaAbstracta11\obj\Debug\netcoreapp3.1\FabricaAbstracta11.csproj.CoreCompileInputs.cache

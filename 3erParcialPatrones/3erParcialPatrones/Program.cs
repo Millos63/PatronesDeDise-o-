@@ -61,18 +61,15 @@ namespace _3erParcialPatrones
                 }
                 
             }
-
-
             
             // tipo = 2. Protesis dinamica
             if (tipo == "2")
             {
-                
-
                 Console.WriteLine("\nPROTESIS DINAMICAS" +
                 "\nEstas protesis son protesis mas avanzadas, y ocupan de un elemento plastico y uno metalico, así como de todos los elementos electricos." +
                 "Presione 1 para continuar\n");
                 Console.ReadLine();
+
 
                 IFabrica miFabrica = new CFabricaDinamica();
                 miFabrica.crearProtesis();
@@ -100,7 +97,7 @@ namespace _3erParcialPatrones
                 Console.WriteLine("{0}", miElectrico3.informacion());
 
                 costoFinal = miPlastico.costo();
-                costoFinal += miMetal.costo();
+                costoFinal += miMetal.costo();  
 
                 //Se suma esta cantidad, ya que se suma el valor de los componentes electricos, y la mano de obra ya que es mas cara la producción de estas.
                 costoFinal += 100000;
@@ -136,19 +133,9 @@ namespace _3erParcialPatrones
                 {
                     Console.WriteLine("Su nip es incorrecto, vuelva a intentanrlo");
                 }
-
             }
-            
-
-
             Console.ForegroundColor =ConsoleColor.White;
             Console.WriteLine("\n\n\n\n\n");
-
-
-
-
-
-
         }
     }
 }

@@ -48,8 +48,10 @@
     <Compile Include="CGamer.cs" />
     <Compile Include="CMac.cs" />
     <Compile Include="CNormal.cs" />
+    <Compile Include="CSeleccionComputadora.cs" />
     <Compile Include="CSencilla.cs" />
     <Compile Include="IComputadora.cs" />
+    <Compile Include="IFuncionalidad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

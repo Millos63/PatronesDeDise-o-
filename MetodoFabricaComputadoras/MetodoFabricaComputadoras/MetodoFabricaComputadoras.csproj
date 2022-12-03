@@ -43,13 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CCaja.cs" />
-    <Compile Include="CCreador.cs" />
-    <Compile Include="CGamer.cs" />
-    <Compile Include="CMac.cs" />
-    <Compile Include="CNormal.cs" />
-    <Compile Include="CSencilla.cs" />
-    <Compile Include="IComputadora.cs" />
+    <Compile Include="CCreacionComputadora.cs" />
+    <Compile Include="CLaptop.cs" />
+    <Compile Include="CPc.cs" />
+    <Compile Include="CProcesador.cs" />
+    <Compile Include="Fabrica\CCaja.cs" />
+    <Compile Include="Fabrica\CCreador.cs" />
+    <Compile Include="Fabrica\CGamer.cs" />
+    <Compile Include="Fabrica\CMac.cs" />
+    <Compile Include="Fabrica\CNormal.cs" />
+    <Compile Include="Fabrica\CSeleccionComputadora.cs" />
+    <Compile Include="Fabrica\CSencilla.cs" />
+    <Compile Include="Fabrica\IComputadora.cs" />
+    <Compile Include="IComponente.cs" />
+    <Compile Include="IFuncionalidad.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

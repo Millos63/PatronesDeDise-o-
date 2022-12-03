@@ -30,7 +30,7 @@ namespace MetodoFabricaComputadoras
                 //Si no existe, instanciamos
                 instancia = new CCaja();
 
-                Console.WriteLine("----Primera compra----");
+                Console.WriteLine("----ESTA ES LA PRIMERA COMPRA DEL DIA----");
 
             }
 

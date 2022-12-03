@@ -15,16 +15,15 @@ namespace MetodoFabricaComputadoras
             IComputadora temp = null;
 
             //Seleccionamos el tipo de instancia segun nuestras reglas
-            if (pSumatoria <= 28)
+            if (pSumatoria == 1)
                 temp = new CSencilla();
-            else if (pSumatoria <= 40)
+            else if (pSumatoria == 2)
                 temp = new CNormal();
-            else if (pSumatoria <= 52)
-                temp = new CGamer();
-            else if (pSumatoria <= 64)
+            else if (pSumatoria == 3)
                 temp = new CMac();
-            else
-                temp = new CSencilla();
+            else if (pSumatoria == 4)
+                temp = new CGamer();
+            
 
 
             return temp;

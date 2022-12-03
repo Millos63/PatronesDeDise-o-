@@ -1,0 +1,43 @@
+//1 Edad
+                //10 - 18: 1    
+                //18 - 30: 2
+                //31...: 3
+                
+
+
+                //2 Experiencia
+                //Poca : 3
+                //Media: 2
+                //Alta: 1
+                
+                //3 Ofice
+                //No: 0
+                //Si: 1
+
+                //5 Diseño
+                //Si: 6
+                //No: 0
+
+                //6 Desarrollo de software 
+                //Si: 6
+                //No: 0
+
+	
+	21 es el numero maximo, que seria para mac.
+	Si despues dice que es gamer, se ira a gamer.
+
+
+	
+		//7 Efectivo
+		//<8000: 1x
+		//<15000: 2
+		//>15001:3
+		
+
+Maximo es 21 
+
+Minimo: 6 
+
+
+
+Sencilla Normal Gamer Mac 

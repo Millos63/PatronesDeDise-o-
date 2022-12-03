@@ -1,7 +1,8 @@
-C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\obj\Debug\CafeteriaDecorador.csprojAssemblyReference.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\obj\Debug\CafeteriaDecorador.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\bin\Debug\CafeteriaDecorador.exe.config
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\bin\Debug\CafeteriaDecorador.exe
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\bin\Debug\CafeteriaDecorador.pdb
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\obj\Debug\CafeteriaDecorador.exe
 C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\obj\Debug\CafeteriaDecorador.pdb
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\obj\Debug\CafeteriaDecorador.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\UMAD 2\PatronesDeDiseño\CafeteriaDecorador\CafeteriaDecorador\obj\Debug\CafeteriaDecorador.csproj.SuggestedBindingRedirects.cache

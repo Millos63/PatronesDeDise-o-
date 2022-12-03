@@ -12,11 +12,23 @@ namespace MetodoFabricaComputadoras
         {
             string r = "";
 
+            //Para la recomendacion de computadora y seleccion.
             IFuncionalidad miFuncionalidad = new CSeleccionComputadora();
 
             miFuncionalidad = new CSeleccionComputadora();
 
             miFuncionalidad.Funcionalidad();
+
+            //Para la creacion de la computadora
+            IFuncionalidad miFuncionalidad2 = new CCreacionComputadora();
+
+            miFuncionalidad2 = new CCreacionComputadora();
+
+            miFuncionalidad2.Funcionalidad();
+            
+
+
+
 
 
 

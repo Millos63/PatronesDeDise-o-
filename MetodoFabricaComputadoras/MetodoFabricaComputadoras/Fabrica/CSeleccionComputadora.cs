@@ -166,9 +166,12 @@ namespace MetodoFabricaComputadoras
 
                     //totalDinero = totalDinero + leerDinero;
                     //Mandamos el dinero que se va a 
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    dinero += dinero;
                     uno.PonerDatos(dinero);
                     Console.WriteLine(uno + "\n\n");
                     Console.WriteLine("-----------------");
+                    Console.ForegroundColor= ConsoleColor.White;
                 }
             }
         }
